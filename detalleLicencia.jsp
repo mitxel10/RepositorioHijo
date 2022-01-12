@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/jsps/templates/taglibs.jsp"%>
-
+prueba hijo
 <%-- DETALLE ACTIONS --%>
 <spring:eval var="isVer"
 	expression="detalleLicencia.action.equals(T(net.izfe.g330.driidentiflib.enums.Action).VER)" />
